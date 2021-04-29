@@ -4,6 +4,10 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+p {
+    line-height: 2;
+}
+
 h1 {
     margin: 50px auto 0 auto;
     font-family: 'Dancing Script', cursive;
@@ -13,10 +17,12 @@ h1 {
 
 h2 {
     color: #66BFBF;
+    font-size: 30px;
 }
 
 h3 {
     color: #11999E;
+    font-size: 22px;
 }
 
 .subtitle {
@@ -32,10 +38,18 @@ h3 {
 }
 
 .middle-container {
+    padding-top: 50px;
+}
 
+.intro {
+    width: 30%;
+    margin: auto;
 }
 
 .bottom-container {
+    background-color: #66BFBF;
+    margin-top: 40px;
+    padding-top: 25px;
     
 }
 
@@ -53,11 +67,15 @@ h3 {
 }
 
 .learn {
-    width: 25%;
+    width: 20%;
+    float: right;
+    margin-left: 30px;
 }
 
 .basketball {
-    width: 25%;
+    width: 20%;
+    float: left;
+    margin-right: 30px;
 }
 
 .profile-pic {
@@ -68,7 +86,48 @@ h3 {
     width: 50%;
     margin: auto;
     margin-top: 100px;
-    margin-bottom: 100px;
+    margin-bottom: 150px;
     text-align: left;
-    line-height: 2;
 }
+
+.footer-link {
+    padding: 10px;
+    color: #11999E;
+    text-decoration: none;
+}
+
+.footer-link:hover {
+    color: #EAF6F6;
+}
+
+.copyright {
+    color: #EAF6F6;
+}
+
+.btn {
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    color: #FFFFFF;
+    font-family: Arial;
+    font-size: 20px;
+    font-weight: 100;
+    padding: 15px;
+    background-color: #66BFBF;
+    text-shadow: 1px 1px 20px #000000;
+    border: solid #66BFBF 1px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    margin-top: 22px;
+ }
+ 
+ .btn:hover {
+    background: #66BFBF;
+    border: solid #FFFFFF 3px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    text-decoration: none;
+ }
